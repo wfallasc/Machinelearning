@@ -1,0 +1,157 @@
+{
+"numero_caja": "caja5",
+"compras":[
+
+	[
+{
+"nombre":"Appetizer - Crab And Brie",
+"cantidad":21,
+"precio_unitario":"0.38"
+},
+{
+"nombre":"Bread - Mini Hamburger Bun",
+"cantidad":2,
+"precio_unitario":"5.98"
+},
+{
+"nombre":"Lettuce - Romaine",
+"cantidad":9,
+"precio_unitario":"8.47"
+},
+{
+"nombre":"Yogurt - Assorted Pack",
+"cantidad":14,
+"precio_unitario":"6.08"
+},
+{
+"nombre":"Asparagus - White, Canned",
+"cantidad":16,
+"precio_unitario":"2.00"
+},
+{
+"nombre":"Pheasants - Whole",
+"cantidad":10,
+"precio_unitario":"7.81"
+}
+	],
+
+[
+{
+"nombre":"Muffin Mix - Blueberry",
+"cantidad":1,
+"precio_unitario":"1.24"
+},
+{
+"nombre":"Lettuce - Romaine",
+"cantidad":19,
+"precio_unitario":"5.08"
+},
+{
+"nombre":"Propel Sport Drink",
+"cantidad":7,
+"precio_unitario":"9.53"
+},
+{
+"nombre":"Salt - Table",
+"cantidad":19,
+"precio_unitario":"1.69"
+}
+],
+
+[
+{
+"nombre":"Flour - Fast / Rapid",
+"cantidad":16,
+"precio_unitario":"7.37"
+},
+{
+"nombre":"Langers - Cranberry Cocktail",
+"cantidad":12,
+"precio_unitario":"0.81"
+},
+{
+"nombre":"Beans - Green",
+"cantidad":16,
+"precio_unitario":"1.75"
+}
+],
+[
+{
+"nombre":"Beans - Green",
+"cantidad":10,
+"precio_unitario":"2.69"
+},
+{
+"nombre":"Lemonade - Black Cherry, 591 Ml",
+"cantidad":15,
+"precio_unitario":"1.56"
+},
+{
+"nombre":"Cabbage - Red",
+"cantidad":15,
+"precio_unitario":"4.15"
+}
+],
+[
+{
+"nombre":"Icecream - Dstk Cml And Fdg",
+"cantidad":10,
+"precio_unitario":"8.36"
+},
+{
+"nombre":"Curry Paste - Madras",
+"cantidad":6,
+"precio_unitario":"5.60"
+},
+{
+"nombre":"Jam - Blackberry, 20 Ml Jar",
+"cantidad":3,
+"precio_unitario":"8.74"
+}
+],
+[
+{
+"nombre":"Beans - Black Bean, Canned",
+"cantidad":20,
+"precio_unitario":"9.65"
+},
+{
+"nombre":"Water - Spring 1.5lit",
+"cantidad":12,
+"precio_unitario":"9.14"
+}
+],
+[
+{
+"nombre":"Spinach - Spinach Leaf",
+"cantidad":17,
+"precio_unitario":"1.44"
+},
+{
+"nombre":"Bacardi Breezer - Strawberry",
+"cantidad":8,
+"precio_unitario":"4.08"
+}
+],
+[
+{"nombre":"Spinach - Spinach Leaf","cantidad":8,"precio_unitario":"658.74"},
+{"nombre":"Dc - Frozen Momji","cantidad":2,"precio_unitario":"576.33"}
+],
+[
+{"nombre":"Honey - Comb","cantidad":10,"precio_unitario":"942.50"},
+{"nombre":"Spinach - Spinach Leaf","cantidad":2,"precio_unitario":"447.77"},
+{"nombre":"Cake Slab","cantidad":2,"precio_unitario":"480.09"},
+{"nombre":"Pork - Liver","cantidad":6,"precio_unitario":"100.39"},
+{"nombre":"Calaloo","cantidad":6,"precio_unitario":"923.72"},
+{"nombre":"Doilies - 8, Paper","cantidad":4,"precio_unitario":"168.28"}
+],
+[
+{"nombre":"Cafe Royale","cantidad":7,"precio_unitario":"385.07"},
+{"nombre":"Clams - Canned","cantidad":4,"precio_unitario":"793.90"},
+{"nombre":"Vaccum Bag 10x13","cantidad":3,"precio_unitario":"928.25"},
+{"nombre":"Cafe Royale","cantidad":10,"precio_unitario":"238.95"}
+]
+
+
+]
+}

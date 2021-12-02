@@ -1,0 +1,182 @@
+{
+"numero_caja": "caja1",
+"compras":[
+
+[{"nombre":"Campari","cantidad":9,"precio_unitario":"634.12"},
+{"nombre":"Fireball Whisky","cantidad":6,"precio_unitario":"1600.10"},
+{"nombre":"Jam - Marmalade, Orange","cantidad":1,"precio_unitario":"370.58"},
+{"nombre":"Salt - Table","cantidad":2,"precio_unitario":"411.74"}
+],
+[
+{"nombre":"Remy Red Berry Infusion","cantidad":6,"precio_unitario":"790.78"}
+],
+[
+{"nombre":"Cheese - Colby","cantidad":5,"precio_unitario":"881.35"},
+{"nombre":"Brandy - Bar","cantidad":6,"precio_unitario":"266.55"},
+{"nombre":"Pan Grease","cantidad":6,"precio_unitario":"303.11"},
+{"nombre":"Venison - Striploin","cantidad":6,"precio_unitario":"303.48"},
+{"nombre":"Cherries - Fresh","cantidad":2,"precio_unitario":"703.00"},
+{"nombre":"Pails With Lids","cantidad":3,"precio_unitario":"403.49"}
+],
+[
+{"nombre":"Wine - Shiraz South Eastern","cantidad":2,"precio_unitario":"292.12"},
+{"nombre":"Bread - Rolls, Corn","cantidad":3,"precio_unitario":"379.92"}
+],
+[
+{"nombre":"Fireball Whisky","cantidad":10,"precio_unitario":"916.04"},
+{"nombre":"Wine - Ruffino Chianti","cantidad":8,"precio_unitario":"447.98"},
+{"nombre":"Sprouts - Alfalfa","cantidad":1,"precio_unitario":"832.21"},
+{"nombre":"Whmis - Spray Bottle Trigger","cantidad":5,"precio_unitario":"284.69"},
+{"nombre":"Mackerel Whole Fresh","cantidad":2,"precio_unitario":"496.52"},
+{"nombre":"Wine - Red, Colio Cabernet","cantidad":9,"precio_unitario":"937.47"},
+{"nombre":"Lettuce - Escarole","cantidad":8,"precio_unitario":"909.68"}
+],
+[
+{"nombre":"Soup - Base Broth Beef","cantidad":8,"precio_unitario":"668.65"},
+{"nombre":"Doilies - 10, Paper","cantidad":4,"precio_unitario":"246.92"},
+{"nombre":"Cookies - Amaretto","cantidad":10,"precio_unitario":"468.24"},
+{"nombre":"Fireball Whisky","cantidad":3,"precio_unitario":"624.19"},
+{"nombre":"Vinegar - Raspberry","cantidad":9,"precio_unitario":"20.75"},
+{"nombre":"Oyster - In Shell","cantidad":3,"precio_unitario":"20.83"}
+],
+[
+{"nombre":"Juice - Apple, 341 Ml","cantidad":6,"precio_unitario":"134.18"}
+],
+[
+{"nombre":"Juice - Apple, 500 Ml","cantidad":10,"precio_unitario":"766.14"},
+{"nombre":"Fireball Whisky","cantidad":10,"precio_unitario":"916.04"},
+{"nombre":"Daikon Radish","cantidad":4,"precio_unitario":"225.17"},
+{"nombre":"Trout Rainbow Whole","cantidad":3,"precio_unitario":"40.28"}
+],
+[
+{"nombre":"Fireball Whisky","cantidad":10,"precio_unitario":"916.04"},
+{"nombre":"Beans - Green","cantidad":10,"precio_unitario":"271.38"},
+{"nombre":"Pork - Tenderloin, Fresh","cantidad":10,"precio_unitario":"365.35"},
+{"nombre":"Skewers - Bamboo","cantidad":4,"precio_unitario":"896.73"},
+{"nombre":"Pastry - Chocolate Chip Muffin","cantidad":5,"precio_unitario":"512.84"},
+{"nombre":"Buffalo - Tenderloin","cantidad":3,"precio_unitario":"964.01"},
+{"nombre":"Bread - Granary Small Pull","cantidad":7,"precio_unitario":"271.21"},
+{"nombre":"Sage Derby","cantidad":3,"precio_unitario":"856.90"},
+{"nombre":"Shark - Loin","cantidad":3,"precio_unitario":"593.08"}
+],
+[
+{"nombre":"Chilli Paste, Hot Sambal Oelek","cantidad":9,"precio_unitario":"270.09"},
+{"nombre":"Tomatoes - Vine Ripe, Red","cantidad":8,"precio_unitario":"35.08"},
+{"nombre":"Tea - Black Currant","cantidad":3,"precio_unitario":"520.61"},
+{"nombre":"Tomatoes - Cherry, Yellow","cantidad":6,"precio_unitario":"461.05"},
+{"nombre":"Cheese - Taleggio D.o.p.","cantidad":10,"precio_unitario":"594.95"},
+{"nombre":"Lettuce - Green Leaf","cantidad":1,"precio_unitario":"945.01"},
+{"nombre":"Fireball Whisky","cantidad":6,"precio_unitario":"461.05"},
+{"nombre":"Mayonnaise","cantidad":10,"precio_unitario":"221.10"}
+],
+[
+{"nombre":"Egg Patty Fried","cantidad":4,"precio_unitario":"444.23"}
+],
+[
+{"nombre":"Coffee Caramel Biscotti","cantidad":7,"precio_unitario":"962.27"},
+{"nombre":"Chips Potato All Dressed - 43g","cantidad":6,"precio_unitario":"461.05"},
+{"nombre":"Yokaline","cantidad":4,"precio_unitario":"935.40"},
+{"nombre":"Shrimp - Baby, Warm Water","cantidad":10,"precio_unitario":"838.13"},
+{"nombre":"Kellogs Cereal In A Cup","cantidad":4,"precio_unitario":"90.13"},
+{"nombre":"Crackers - Melba Toast","cantidad":8,"precio_unitario":"924.31"},
+{"nombre":"Cornflakes","cantidad":4,"precio_unitario":"664.06"}
+],
+[
+{"nombre":"Appetizer - Mango Chevre","cantidad":4,"precio_unitario":"689.17"},
+{"nombre":"Chinese Foods - Thick Noodles","cantidad":7,"precio_unitario":"522.71"},
+{"nombre":"Wine - Penfolds Koonuga Hill","cantidad":5,"precio_unitario":"802.21"},
+{"nombre":"Wine - Savigny - Les - Beaune","cantidad":4,"precio_unitario":"247.46"},
+{"nombre":"Juice - Orange","cantidad":3,"precio_unitario":"868.22"},
+{"nombre":"Wine - Ruffino Chianti Classico","cantidad":10,"precio_unitario":"721.79"},
+{"nombre":"Cookies Almond Hazelnut","cantidad":5,"precio_unitario":"370.47"},
+{"nombre":"Tarragon - Primerba, Paste","cantidad":4,"precio_unitario":"270.44"},
+{"nombre":"Cake - Mini Potato Pancake","cantidad":1,"precio_unitario":"855.07"},
+{"nombre":"Tomatoes - Cherry, Yellow","cantidad":2,"precio_unitario":"364.35"},
+{"nombre":"Wine - Pinot Noir Stoneleigh","cantidad":10,"precio_unitario":"693.22"},
+{"nombre":"Pork Loin Cutlets","cantidad":8,"precio_unitario":"790.03"},
+{"nombre":"Tomatoes - Cherry, Yellow","cantidad":2,"precio_unitario":"364.35"},
+{"nombre":"Beans - Turtle, Black, Dry","cantidad":9,"precio_unitario":"979.02"},
+{"nombre":"Sauce - Soy Low Sodium - 3.87l","cantidad":6,"precio_unitario":"851.62"},
+{"nombre":"Vegetable - Base","cantidad":3,"precio_unitario":"684.35"},
+{"nombre":"Tomatoes - Cherry, Yellow","cantidad":2,"precio_unitario":"364.35"},
+{"nombre":"Muffin - Mix - Mango Sour Cherry","cantidad":9,"precio_unitario":"52.82"},
+{"nombre":"Tilapia - Fillets","cantidad":9,"precio_unitario":"573.78"},
+{"nombre":"Cup - 6oz, Foam","cantidad":8,"precio_unitario":"365.95"},
+{"nombre":"Pepperoni Slices","cantidad":8,"precio_unitario":"316.02"}
+],
+[
+{"nombre":"Soup - Campbells Tomato Ravioli","cantidad":1,"precio_unitario":"824.93"},
+{"nombre":"Bread - Focaccia Quarter","cantidad":5,"precio_unitario":"309.44"},
+{"nombre":"Silicone Parch. 16.3x24.3","cantidad":9,"precio_unitario":"998.07"},
+{"nombre":"Higashimaru Usukuchi Soy","cantidad":4,"precio_unitario":"142.32"},
+{"nombre":"Artichoke - Fresh","cantidad":8,"precio_unitario":"516.28"},
+{"nombre":"Onions - Cooking","cantidad":9,"precio_unitario":"505.43"},
+{"nombre":"Bread - Ciabatta Buns","cantidad":1,"precio_unitario":"320.23"}
+],
+[
+{"nombre":"Parsley - Fresh","cantidad":10,"precio_unitario":"445.87"},
+{"nombre":"Lobster - Tail, 3 - 4 Oz","cantidad":9,"precio_unitario":"916.84"},
+{"nombre":"Mix - Cappucino Cocktail","cantidad":4,"precio_unitario":"406.14"},
+{"nombre":"Juice - Mango","cantidad":4,"precio_unitario":"428.27"},
+{"nombre":"Ginger - Ground","cantidad":6,"precio_unitario":"698.89"},
+{"nombre":"Tomatoes - Cherry, Yellow","cantidad":2,"precio_unitario":"364.35"},
+{"nombre":"Flour - Rye","cantidad":3,"precio_unitario":"313.65"},
+{"nombre":"Pie Pecan","cantidad":2,"precio_unitario":"778.80"},
+{"nombre":"Creme De Banane - Marie","cantidad":3,"precio_unitario":"14.56"},
+{"nombre":"Compound - Pear","cantidad":8,"precio_unitario":"232.78"}
+],
+[
+{"nombre":"Wine - Ruffino Chianti","cantidad":2,"precio_unitario":"799.81"},
+{"nombre":"Nantucket Orange Juice","cantidad":9,"precio_unitario":"668.45"}
+],
+[
+{"nombre":"Bread - Roll, Calabrese","cantidad":2,"precio_unitario":"240.81"},
+{"nombre":"Bread - White, Sliced","cantidad":10,"precio_unitario":"817.69"},
+{"nombre":"Wine - George Duboeuf Rose","cantidad":4,"precio_unitario":"865.16"},
+{"nombre":"Bread - 10 Grain","cantidad":9,"precio_unitario":"859.42"},
+{"nombre":"Ice Cream - Vanilla","cantidad":7,"precio_unitario":"513.43"},
+{"nombre":"Truffle Cups Green","cantidad":9,"precio_unitario":"822.02"},
+{"nombre":"Wine - Red, Gamay Noir","cantidad":7,"precio_unitario":"180.51"},
+{"nombre":"Cheese - Cheddar, Old White","cantidad":9,"precio_unitario":"572.75"},
+{"nombre":"Ice Cream - Chocolate","cantidad":5,"precio_unitario":"771.65"},
+{"nombre":"Ginger - Ground","cantidad":7,"precio_unitario":"90.95"},
+{"nombre":"Wine - White, Pinot Grigio","cantidad":1,"precio_unitario":"18.59"},
+{"nombre":"Ginger - Ground","cantidad":7,"precio_unitario":"90.95"},
+{"nombre":"Ice Cream Bar - Oreo Sandwich","cantidad":10,"precio_unitario":"362.27"},
+{"nombre":"Beef - Flank Steak","cantidad":7,"precio_unitario":"285.66"},
+{"nombre":"Tomatoes - Diced, Canned","cantidad":4,"precio_unitario":"831.32"},
+{"nombre":"Ginger - Ground","cantidad":7,"precio_unitario":"90.95"},
+{"nombre":"Quail - Whole, Boneless","cantidad":5,"precio_unitario":"576.85"},
+{"nombre":"Cranberry Foccacia","cantidad":4,"precio_unitario":"460.16"},
+{"nombre":"Sambuca - Opal Nera","cantidad":3,"precio_unitario":"431.58"},
+{"nombre":"Dikon","cantidad":8,"precio_unitario":"381.35"},
+{"nombre":"Tomatoes - Cherry, Yellow","cantidad":7,"precio_unitario":"601.24"},
+{"nombre":"Coffee Cup 8oz 5338cd","cantidad":10,"precio_unitario":"94.18"},
+{"nombre":"Onions - Vidalia","cantidad":8,"precio_unitario":"67.23"}
+],
+[
+{"nombre":"Nantucket - Pomegranate Pear","cantidad":5,"precio_unitario":"859.95"},
+{"nombre":"Cranberry Foccacia","cantidad":9,"precio_unitario":"352.92"},
+{"nombre":"Wine - White, Pinot Grigio","cantidad":10,"precio_unitario":"53.10"},
+{"nombre":"Capers - Pickled","cantidad":2,"precio_unitario":"632.60"},
+{"nombre":"Bread - Pumpernickle, Rounds","cantidad":2,"precio_unitario":"917.45"},
+{"nombre":"Cookies - Assorted","cantidad":1,"precio_unitario":"360.06"},
+{"nombre":"Nantucket Apple Juice","cantidad":4,"precio_unitario":"190.62"},
+{"nombre":"Pants Custom Dry Clean","cantidad":3,"precio_unitario":"8.74"},
+{"nombre":"Table Cloth 91x91 Colour","cantidad":1,"precio_unitario":"831.63"},
+{"nombre":"Cookies - Assorted","cantidad":1,"precio_unitario":"360.06"}
+],
+[
+{"nombre":"Jolt Cola - Red Eye","cantidad":1,"precio_unitario":"66.96"},
+{"nombre":"Tuna - Salad Premix","cantidad":3,"precio_unitario":"887.37"},
+{"nombre":"Cheese - La Sauvagine","cantidad":5,"precio_unitario":"644.54"},
+{"nombre":"Trueblue - Blueberry","cantidad":7,"precio_unitario":"919.42"},
+{"nombre":"Wine - White, Pinot Grigio","cantidad":8,"precio_unitario":"576.91"},
+{"nombre":"Wine - Vineland Estate Semi - Dry","cantidad":2,"precio_unitario":"536.01"},
+{"nombre":"Lobster - Base","cantidad":7,"precio_unitario":"978.67"},
+{"nombre":"Ginger - Ground","cantidad":8,"precio_unitario":"542.09"}
+]
+
+]
+
+}

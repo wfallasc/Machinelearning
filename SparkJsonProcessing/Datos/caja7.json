@@ -1,0 +1,133 @@
+{
+"numero_caja": "caja7",
+"compras":[
+
+[
+{"nombre":"Soup - Chicken And Wild Rice","cantidad":10,"precio_unitario":"974.19"},
+{"nombre":"Doilies - 8, Paper","cantidad":3,"precio_unitario":"852.09"},
+{"nombre":"Tart Shells - Sweet, 2","cantidad":2,"precio_unitario":"977.84"},
+{"nombre":"Goat - Whole Cut","cantidad":9,"precio_unitario":"401.19"}
+],
+[
+
+{"nombre":"Cornflakes","cantidad":2,"precio_unitario":"493.14"},
+{"nombre":"Mushroom - Portebello","cantidad":7,"precio_unitario":"141.38"},
+{"nombre":"Stainless Steel Cleaner Vision","cantidad":6,"precio_unitario":"159.22"},
+{"nombre":"Nescafe - Frothy French Vanilla","cantidad":8,"precio_unitario":"845.82"},
+{"nombre":"Veal - Leg, Provimi - 50 Lb Max","cantidad":4,"precio_unitario":"908.87"},
+{"nombre":"Shrimp - Prawn","cantidad":3,"precio_unitario":"849.61"}
+],
+[
+{"nombre":"Crab - Dungeness, Whole, live","cantidad":9,"precio_unitario":"280.80"},
+{"nombre":"Doilies - 10, Paper","cantidad":5,"precio_unitario":"403.34"},
+{"nombre":"Soda Water - Club Soda, 355 Ml","cantidad":7,"precio_unitario":"318.83"},
+{"nombre":"Cheese - Montery Jack","cantidad":1,"precio_unitario":"101.77"}
+],
+[
+{"nombre":"Cheese - Montery Jack","cantidad":8,"precio_unitario":"593.97"},
+{"nombre":"V8 Splash Strawberry Kiwi","cantidad":3,"precio_unitario":"277.26"},
+{"nombre":"Paper Towel Touchless","cantidad":4,"precio_unitario":"422.52"}
+],
+[
+{"nombre":"Melon - Watermelon, Seedless","cantidad":1,"precio_unitario":"209.45"},
+{"nombre":"Pepper - Paprika, Spanish","cantidad":9,"precio_unitario":"187.02"},
+{"nombre":"Beans - Wax","cantidad":10,"precio_unitario":"296.49"},
+{"nombre":"Lettuce - Curly Endive","cantidad":8,"precio_unitario":"636.04"},
+{"nombre":"Pork - Backs - Boneless","cantidad":5,"precio_unitario":"314.02"},
+{"nombre":"Soup - Base Broth Chix","cantidad":5,"precio_unitario":"693.77"},
+{"nombre":"Bread - Assorted Rolls","cantidad":1,"precio_unitario":"407.91"},
+{"nombre":"Glycerine","cantidad":10,"precio_unitario":"208.01"},
+{"nombre":"Apple - Custard","cantidad":10,"precio_unitario":"756.81"},
+{"nombre":"Beer - Camerons Auburn","cantidad":4,"precio_unitario":"310.01"},
+{"nombre":"Juice - Tomato, 10 Oz","cantidad":6,"precio_unitario":"497.13"},
+{"nombre":"Silicone Paper 16.5x24","cantidad":3,"precio_unitario":"804.79"},
+{"nombre":"Cheese - Montery Jack","cantidad":3,"precio_unitario":"695.18"},
+{"nombre":"Banana","cantidad":2,"precio_unitario":"868.99"},
+{"nombre":"Tuna - Fresh","cantidad":7,"precio_unitario":"953.66"},
+{"nombre":"Mcgillicuddy Vanilla Schnap","cantidad":1,"precio_unitario":"716.25"},
+{"nombre":"Tofu - Firm","cantidad":5,"precio_unitario":"336.54"},
+{"nombre":"Hipnotiq Liquor","cantidad":10,"precio_unitario":"811.72"},
+{"nombre":"Bread Country Roll","cantidad":6,"precio_unitario":"664.66"},
+{"nombre":"Chocolate Eclairs","cantidad":5,"precio_unitario":"181.11"}
+],
+[
+{"nombre":"Banana","cantidad":10,"precio_unitario":"800.37"},
+{"nombre":"Beans - Green","cantidad":1,"precio_unitario":"359.37"},
+{"nombre":"Drambuie","cantidad":1,"precio_unitario":"975.36"},
+{"nombre":"Crab - Imitation Flakes","cantidad":6,"precio_unitario":"252.75"},
+{"nombre":"Brownies - Two Bite, Chocolate","cantidad":1,"precio_unitario":"585.28"},
+{"nombre":"Muffin Mix - Banana Nut","cantidad":3,"precio_unitario":"83.93"},
+{"nombre":"Cake - Miini Cheesecake Cherry","cantidad":8,"precio_unitario":"472.73"}
+],
+[
+{"nombre":"The Pop Shoppe - Cream Soda","cantidad":10,"precio_unitario":"257.17"},
+{"nombre":"Tart - Butter Plain Squares","cantidad":1,"precio_unitario":"271.59"},
+{"nombre":"Juice - Orange","cantidad":7,"precio_unitario":"610.27"},
+{"nombre":"Beef - Ground, Extra Lean, Fresh","cantidad":8,"precio_unitario":"412.10"},
+{"nombre":"Pasta - Fettuccine, Dry","cantidad":5,"precio_unitario":"71.53"},
+{"nombre":"Pineapple - Regular","cantidad":4,"precio_unitario":"369.54"},
+{"nombre":"Banana","cantidad":9,"precio_unitario":"55.18"}
+],
+[
+{"nombre":"Mountain Dew","cantidad":1,"precio_unitario":"586.85"},
+{"nombre":"Cheese - Havarti, Roasted Garlic","cantidad":7,"precio_unitario":"352.14"},
+{"nombre":"Spice - Onion Powder Granulated","cantidad":7,"precio_unitario":"308.28"},
+{"nombre":"Pork - Sausage Casing","cantidad":9,"precio_unitario":"710.00"},
+{"nombre":"Mushroom - Chanterelle, Dry","cantidad":3,"precio_unitario":"881.52"},
+{"nombre":"Glove - Cutting","cantidad":7,"precio_unitario":"983.75"},
+{"nombre":"Towel Dispenser","cantidad":7,"precio_unitario":"104.37"}
+],
+
+[
+{"nombre":"Wine - Duboeuf Beaujolais","cantidad":8,"precio_unitario":"608.95"},
+{"nombre":"Jam - Raspberry","cantidad":3,"precio_unitario":"907.18"},
+{"nombre":"Bread - Raisin","cantidad":3,"precio_unitario":"282.49"},
+{"nombre":"Spoon - Soup, Plastic","cantidad":4,"precio_unitario":"376.98"},
+{"nombre":"Mousse - Mango","cantidad":3,"precio_unitario":"121.68"},
+{"nombre":"Quail - Whole, Bone - In","cantidad":5,"precio_unitario":"416.71"},
+{"nombre":"Prunes - Pitted","cantidad":8,"precio_unitario":"213.89"}
+],
+
+[
+{"nombre":"Sambuca - Opal Nera","cantidad":7,"precio_unitario":"710.91"},
+{"nombre":"Bread - Frozen Basket Variety","cantidad":9,"precio_unitario":"226.00"},
+{"nombre":"Chocolate - Liqueur Cups With Foil","cantidad":7,"precio_unitario":"247.97"},
+{"nombre":"Nut - Pecan, Pieces","cantidad":2,"precio_unitario":"857.05"},
+{"nombre":"Chips Potato Swt Chilli Sour","cantidad":8,"precio_unitario":"473.46"},
+{"nombre":"Hand Towel","cantidad":8,"precio_unitario":"69.08"},
+{"nombre":"Banana","cantidad":5,"precio_unitario":"779.65"},
+{"nombre":"Towel Dispenser","cantidad":3,"precio_unitario":"135.99"},
+{"nombre":"Wine - Duboeuf Beaujolais","cantidad":3,"precio_unitario":"534.63"}
+],
+
+[
+{"nombre":"Chocolate Bar - Smarties","cantidad":10,"precio_unitario":"487.02"},
+{"nombre":"Chocolate Bar - Smarties","cantidad":5,"precio_unitario":"795.21"},
+{"nombre":"Pasta - Elbows, Macaroni, Dry","cantidad":10,"precio_unitario":"382.03"},
+{"nombre":"Quail - Eggs, Fresh","cantidad":4,"precio_unitario":"970.06"},
+{"nombre":"Flower - Carnations","cantidad":9,"precio_unitario":"218.86"}
+],
+
+[
+{"nombre":"Muffin Orange Individual","cantidad":7,"precio_unitario":"927.35"},
+{"nombre":"Towel Dispenser","cantidad":5,"precio_unitario":"555.11"},
+{"nombre":"Lemonade - Strawberry, 591 Ml","cantidad":3,"precio_unitario":"888.35"},
+{"nombre":"Plate Foam Laminated 9in Blk","cantidad":6,"precio_unitario":"26.83"},
+{"nombre":"Wine - Duboeuf Beaujolais","cantidad":7,"precio_unitario":"38.66"},
+{"nombre":"Maple Syrup","cantidad":8,"precio_unitario":"884.39"},
+{"nombre":"Bread - Pita, Mini","cantidad":8,"precio_unitario":"164.67"},
+{"nombre":"Towel - Roll White","cantidad":9,"precio_unitario":"620.01"},
+{"nombre":"Tray - 12in Rnd Blk","cantidad":1,"precio_unitario":"691.61"}
+],
+[
+{"nombre":"Vaccum Bag - 14x20","cantidad":8,"precio_unitario":"69.83"},
+{"nombre":"Pastry - Butterscotch Baked","cantidad":5,"precio_unitario":"792.84"},
+{"nombre":"Water - Mineral, Natural","cantidad":2,"precio_unitario":"195.30"},
+{"nombre":"Sprouts - Baby Pea Tendrils","cantidad":3,"precio_unitario":"914.21"},
+{"nombre":"Wine - Duboeuf Beaujolais","cantidad":4,"precio_unitario":"839.22"},
+{"nombre":"Anchovy Paste - 56 G Tube","cantidad":3,"precio_unitario":"973.27"},
+{"nombre":"Shrimp, Dried, Small / Lb","cantidad":8,"precio_unitario":"736.85"},
+{"nombre":"Banana","cantidad":6,"precio_unitario":"798.66"}
+]
+]
+}

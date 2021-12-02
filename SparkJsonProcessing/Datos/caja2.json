@@ -1,0 +1,80 @@
+{
+"numero_caja": "caja2",
+"compras":[
+
+[{"nombre":"Appetizer - Sausage Rolls","cantidad":4,"precio_unitario":"363.90"},
+{"nombre":"Shichimi Togarashi Peppeers","cantidad":7,"precio_unitario":"264.70"}
+],
+[
+{"nombre":"Chutney Sauce","cantidad":5,"precio_unitario":"93.57"},
+{"nombre":"Cookies - Assorted","cantidad":1,"precio_unitario":"360.06"},
+{"nombre":"Cocktail Napkin Blue","cantidad":5,"precio_unitario":"941.70"},
+{"nombre":"Halibut - Fletches","cantidad":7,"precio_unitario":"887.26"}
+],
+[
+{"nombre":"Potatoes - Fingerling 4 Oz","cantidad":8,"precio_unitario":"658.74"},
+{"nombre":"Dc - Frozen Momji","cantidad":2,"precio_unitario":"576.33"}
+],
+[
+{"nombre":"Honey - Comb","cantidad":10,"precio_unitario":"942.50"},
+{"nombre":"Beef - Tenderlion, Center Cut","cantidad":2,"precio_unitario":"447.77"},
+{"nombre":"Cake Slab","cantidad":2,"precio_unitario":"480.09"},
+{"nombre":"Pork - Liver","cantidad":6,"precio_unitario":"100.39"},
+{"nombre":"Calaloo","cantidad":6,"precio_unitario":"923.72"},
+{"nombre":"Doilies - 8, Paper","cantidad":4,"precio_unitario":"168.28"}
+],
+[
+{"nombre":"Absolut Citron","cantidad":6,"precio_unitario":"539.78"},
+{"nombre":"Wine - Fino Tio Pepe Gonzalez","cantidad":1,"precio_unitario":"134.90"},
+{"nombre":"Cookie Chocolate Chip With","cantidad":7,"precio_unitario":"331.52"},
+{"nombre":"Soup - Campbells - Tomato","cantidad":6,"precio_unitario":"966.26"},
+{"nombre":"Plate Pie Foil","cantidad":10,"precio_unitario":"894.81"},
+{"nombre":"Duck - Whole","cantidad":9,"precio_unitario":"837.34"},
+{"nombre":"Salt - Rock, Course","cantidad":4,"precio_unitario":"871.58"},
+{"nombre":"Artichokes - Knobless, White","cantidad":8,"precio_unitario":"568.70"}
+],
+[
+{"nombre":"Cake Slab","cantidad":5,"precio_unitario":"522.94"},
+{"nombre":"Pepper - Red Bell","cantidad":5,"precio_unitario":"532.62"}
+],
+[
+{"nombre":"Island Oasis - Strawberry","cantidad":3,"precio_unitario":"813.90"},
+{"nombre":"Longos - Grilled Chicken With","cantidad":1,"precio_unitario":"851.08"},
+{"nombre":"Tea - Mint","cantidad":10,"precio_unitario":"721.07"},
+{"nombre":"Cheese - Marble","cantidad":2,"precio_unitario":"926.67"}
+],
+[
+{"nombre":"Cake Slab","cantidad":6,"precio_unitario":"234.18"},
+{"nombre":"Cookie Dough - Peanut Butter","cantidad":3,"precio_unitario":"204.13"},
+{"nombre":"Sherbet - Raspberry","cantidad":1,"precio_unitario":"235.18"},
+{"nombre":"Eggplant - Baby","cantidad":8,"precio_unitario":"628.60"},
+{"nombre":"Sauce - Gravy, Au Jus, Mix","cantidad":3,"precio_unitario":"574.62"},
+{"nombre":"Wine - Vouvray Cuvee Domaine","cantidad":8,"precio_unitario":"766.95"}
+],
+[{"nombre":"Corn Kernels - Frozen","cantidad":6,"precio_unitario":"123.17"},
+{"nombre":"Cinnamon - Ground","cantidad":5,"precio_unitario":"456.96"},
+{"nombre":"Wine - Chateauneuf Du Pape","cantidad":6,"precio_unitario":"957.28"}
+],
+[
+{"nombre":"Relish","cantidad":1,"precio_unitario":"322.53"},
+{"nombre":"Campari","cantidad":2,"precio_unitario":"991.65"},
+{"nombre":"Campari","cantidad":7,"precio_unitario":"854.59"},
+{"nombre":"Steel Wool","cantidad":7,"precio_unitario":"399.85"},
+{"nombre":"Fish - Bones","cantidad":7,"precio_unitario":"152.69"},
+{"nombre":"Sprouts - Corn","cantidad":8,"precio_unitario":"622.67"},
+{"nombre":"Beer - Upper Canada Lager","cantidad":10,"precio_unitario":"855.05"},
+{"nombre":"Wine - White, Mosel Gold","cantidad":4,"precio_unitario":"667.48"},
+{"nombre":"Chicken Breast Wing On","cantidad":6,"precio_unitario":"69.73"}
+],
+
+[
+{"nombre":"Oats Large Flake","cantidad":1,"precio_unitario":"672.57"},
+{"nombre":"Corn Kernels - Frozen","cantidad":1,"precio_unitario":"929.68"},
+{"nombre":"Chutney Sauce - Mango","cantidad":5,"precio_unitario":"910.92"},
+{"nombre":"Wine - Black Tower Qr","cantidad":3,"precio_unitario":"946.75"},
+{"nombre":"Quail - Eggs, Fresh","cantidad":6,"precio_unitario":"393.22"}
+]
+
+]
+
+}

@@ -1,0 +1,88 @@
+{
+"numero_caja": "caja6",
+"compras":[
+
+
+[{"nombre":"Cheese - Grie Des Champ","cantidad":9,"precio_unitario":"555.46"}],
+[{"nombre":"Flavouring - Orange","cantidad":6,"precio_unitario":"379.13"}],
+[{"nombre":"Lamb - Rack","cantidad":1,"precio_unitario":"648.67"}],
+[{"nombre":"Potatoes - Idaho 80 Count","cantidad":7,"precio_unitario":"3.49"}],
+[{"nombre":"Cod - Salted, Boneless","cantidad":7,"precio_unitario":"39.66"}],
+[{"nombre":"Ostrich - Fan Fillet","cantidad":10,"precio_unitario":"319.40"}],
+[{"nombre":"Salad Dressing","cantidad":3,"precio_unitario":"523.26"}],
+
+[{"nombre":"Sprite - 355 Ml","cantidad":1,"precio_unitario":"464.57"},
+{"nombre":"Ostrich - Fan Fillet","cantidad":5,"precio_unitario":"183.31"},
+{"nombre":"Shrimp - Baby, Cold Water","cantidad":10,"precio_unitario":"741.98"},
+{"nombre":"Puree - Pear","cantidad":6,"precio_unitario":"594.73"},
+{"nombre":"Tart Shells - Barquettes, Savory","cantidad":2,"precio_unitario":"28.78"},
+{"nombre":"Thyme - Lemon, Fresh","cantidad":10,"precio_unitario":"255.22"},
+{"nombre":"Cup - 3.5oz, Foam","cantidad":5,"precio_unitario":"463.23"}],
+
+[{"nombre":"Coffee - Decafenated","cantidad":6,"precio_unitario":"811.33"},
+{"nombre":"Salmon - Atlantic, Skin On","cantidad":7,"precio_unitario":"745.48"},
+{"nombre":"Bread - Focaccia Quarter","cantidad":8,"precio_unitario":"882.57"},
+{"nombre":"Raspberries - Frozen","cantidad":10,"precio_unitario":"664.11"},
+{"nombre":"Pork - Loin, Center Cut","cantidad":10,"precio_unitario":"666.89"},
+{"nombre":"White Fish - Filets","cantidad":2,"precio_unitario":"581.55"}],
+
+[{"nombre":"Sprite - 355 Ml","cantidad":5,"precio_unitario":"332.88"},
+{"nombre":"Pepper - Red, Finger Hot","cantidad":9,"precio_unitario":"396.27"},
+{"nombre":"Turnip - Mini","cantidad":4,"precio_unitario":"405.76"},
+{"nombre":"Nantuket Peach Orange","cantidad":8,"precio_unitario":"645.14"},
+{"nombre":"Island Oasis - Mango Daiquiri","cantidad":5,"precio_unitario":"607.61"},
+{"nombre":"Cakes Assorted","cantidad":1,"precio_unitario":"175.63"}],
+
+
+[{"nombre":"Lettuce - Belgian Endive","cantidad":9,"precio_unitario":"104.70"},
+{"nombre":"Flour - Rye","cantidad":7,"precio_unitario":"757.89"},
+{"nombre":"Beef - Baby, Liver","cantidad":8,"precio_unitario":"369.63"},
+{"nombre":"Juice - Mango","cantidad":1,"precio_unitario":"248.29"}
+],
+[
+{"nombre":"Longos - Chicken Wings","cantidad":5,"precio_unitario":"334.44"},
+{"nombre":"Bread - Mini Hamburger Bun","cantidad":4,"precio_unitario":"723.49"},
+{"nombre":"Ginsing - Fresh","cantidad":10,"precio_unitario":"499.27"},
+{"nombre":"Sprite - 355 Ml","cantidad":6,"precio_unitario":"802.23"},
+{"nombre":"Neckerchief Blck","cantidad":4,"precio_unitario":"454.07"},
+{"nombre":"Wine - Fume Blanc Fetzer","cantidad":5,"precio_unitario":"138.28"},
+{"nombre":"Pepper - Roasted Red","cantidad":5,"precio_unitario":"771.70"}
+],
+[
+{"nombre":"Cabbage - Nappa","cantidad":5,"precio_unitario":"929.65"},
+{"nombre":"Contreau","cantidad":1,"precio_unitario":"777.33"},
+{"nombre":"Five Alive Citrus","cantidad":2,"precio_unitario":"83.81"},
+{"nombre":"Lentils - Green Le Puy","cantidad":9,"precio_unitario":"582.43"},
+{"nombre":"Glycerine","cantidad":5,"precio_unitario":"994.71"},
+{"nombre":"Creme De Banane - Marie","cantidad":2,"precio_unitario":"940.21"},
+{"nombre":"Cheese - Cheddar, Medium","cantidad":5,"precio_unitario":"567.65"},
+{"nombre":"Bar Energy Chocchip","cantidad":10,"precio_unitario":"685.24"},
+{"nombre":"Lamb Rack - Ontario","cantidad":9,"precio_unitario":"275.96"},
+{"nombre":"Schnappes - Peach, Walkers","cantidad":4,"precio_unitario":"506.94"},
+{"nombre":"Lamb - Rack","cantidad":8,"precio_unitario":"207.53"}],
+
+
+[{"nombre":"Pop - Club Soda Can","cantidad":5,"precio_unitario":"281.23"}],
+[{"nombre":"Beef - Top Butt Aaa","cantidad":3,"precio_unitario":"387.85"}],
+
+[
+{"nombre":"Beer - Original Organic Lager","cantidad":1,"precio_unitario":"340.97"},
+{"nombre":"Rice - Long Grain","cantidad":1,"precio_unitario":"529.12"},
+{"nombre":"Chicken Thigh - Bone Out","cantidad":9,"precio_unitario":"642.72"},
+{"nombre":"Olives - Green, Pitted","cantidad":6,"precio_unitario":"113.38"},
+{"nombre":"Bread - Roll, Soft White Round","cantidad":2,"precio_unitario":"713.92"},
+{"nombre":"Juice - Ocean Spray Cranberry","cantidad":4,"precio_unitario":"993.74"},
+{"nombre":"Soup - Knorr, Ministrone","cantidad":1,"precio_unitario":"901.76"},
+{"nombre":"Sprite - 355 Ml","cantidad":4,"precio_unitario":"566.43"}
+],
+
+[
+{"nombre":"Longos - Chicken Caeser Salad","cantidad":1,"precio_unitario":"828.01"},
+{"nombre":"Mushroom - Enoki, Dry","cantidad":5,"precio_unitario":"402.35"},
+{"nombre":"Lamb - Rack","cantidad":2,"precio_unitario":"95.69"}
+]
+
+
+
+]
+}
