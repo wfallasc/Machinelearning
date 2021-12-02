@@ -1,0 +1,286 @@
+---
+title: "Reglas de asociación"
+author: "William Fallas"
+date: "9/30/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# carga de paquetes necesarios
+library(arules)
+library(arulesViz)
+library(tidyverse)
+library(plyr)
+library(lubridate)
+library("readxl")
+library(plyr)
+
+```
+
+### Lectura de datos
+
+```{r}
+# lectura de los datos
+datos<- read.csv('CafeteriaCSV.csv',sep=',',dec='.',stringsAsFactors =FALSE)
+
+#Cuantas filas tiene el dataset
+nrow(datos)
+ 
+```
+
+### Validación de valores nulos en Dataframe
+
+```{r}
+#Exiten Nulos?
+anyNA(datos)
+
+```
+No existen valores en  nulo en el dataset
+
+
+##### Calcular columna de distribución de Tiempo, la nueva columna “tiempo” tiene por objetivo discretizar la columna hora, los valores de esta nueva columna serán: Manana, Medio Dia y Tarde.
+```{r}
+
+datos= within(datos, HoraSplit<-data.frame(do.call('rbind', strsplit(as.character(Hora), ':', fixed=TRUE))))
+
+#crear nueva columna de tiempo: Manana, medio dia, tarde
+datos$tiempo <- ""
+# Ocnvertir la columna Hora a numerico
+datos$HoraSplit$X1 = as.numeric(as.character(datos$HoraSplit$X1))
+#asignar el valor de acuerdo a la hora
+datos$tiempo[datos$HoraSplit$X1 < 11] <- "Manana"
+datos$tiempo[datos$HoraSplit$X1 >= 11 & datos$HoraSplit$X1 <= 13] <- "MedioDia" 
+datos$tiempo[datos$HoraSplit$X1 >  13] <- "Tarde" 
+
+datos$HoraSplit<-NULL
+datos$Id <- NULL
+ 
+```
+
+### Exploración de datos
+
+#### Variable "Tiempo"
+```{r}
+ggplot(datos, aes(tiempo)) + 
+  geom_bar(aes(fill = tiempo))
+
+```
+
+#### Variable "Producto"
+
+```{r}
+
+ProdCount = count(datos, "Producto")
+
+filterProd = ProdCount[ProdCount$freq > 200,]
+
+filterProd %>%
+  ggplot(aes(x=Producto, y=freq))+
+  geom_col() + 
+  coord_flip()
+```
+
+### Procesamiento de las reglas de asociación
+
+
+
+#### Transformación de las columnas a factor
+
+```{r}
+
+ DF_Transacciones= datos
+ # se convierten a factor las variable Producto 
+ DF_Transacciones <- DF_Transacciones %>% mutate(Producto=as.factor(Producto))
+ DF_Transacciones <- DF_Transacciones %>% mutate(tiempo=as.factor(tiempo))
+
+```
+
+
+#### Agrupar los datos por Fecha, hora, tiempo y concatenar los productos con el tiempo para hacer el análisis de asociación : Producto – Momento del día
+
+
+```{r}
+# se agrupan las transacciones con igual Fecha y Hora
+ Transacciones_final <- ddply(DF_Transacciones,c('Fecha','Hora','tiempo'),
+                       function(df1) paste(df1$Producto ,collapse = ','))
+ 
+
+ 
+ Transacciones_final$V1 <- paste(Transacciones_final$V1, ",", Transacciones_final$tiempo)
+ 
+ Transacciones_final$Fecha<-NULL
+ Transacciones_final$Hora<-NULL
+ Transacciones_final$tiempo<-NULL
+ 
+ colnames(Transacciones_final) <- c('items')
+ 
+ write.csv(Transacciones_final,'transaccionesCSV.csv',quote = FALSE)
+ 
+```
+
+#### Lectura de los datos en formato transacción
+
+```{r warning=FALSE}
+# se leerá el archivo como transacciones formato basket
+ 
+ transacciones<- read.transactions('transaccionesCSV.csv',sep=',',format = 'basket')
+
+summary(transacciones)
+ 
+```
+
+## Generación de las reglas 
+
+#### Modelo1: se generan las reglas usando el algoritmo a priori, con un soporte del 1% y una confianza de 85%
+
+```{r}
+  reglas<- apriori(transacciones,parameter = list(supp=0.001,conf=0.85,maxlen=10))
+```
+
+
+```{r include=FALSE}
+  # eliminar reglas que son subconjuntos de otras 
+  subconjuntos<- which(colSums(is.subset(reglas,reglas))>1)
+  
+  reglasFinal<- reglas[-subconjuntos]
+   
+  # se ordena por soporte y se observan las primeras 10 reglas
+  sort(reglasFinal,by='support',decreasing = TRUE)
+  
+  # se filtran las reglas con confianza superior a 0.285
+  mejoresReglas<- reglasFinal[quality(reglasFinal)$confidence>0.85]
+  
+```
+
+##### Mejores tres  reglas: Apriori
+```{r}
+
+  
+  inspect(mejoresReglas[1:3])
+  
+```
+
+
+##### Visualización de las  reglas: Apriori
+```{r fig.align='center'}
+   cincoMejoresReglas<- head(mejoresReglas,n=5,by='confidence')
+  
+   plot(cincoMejoresReglas,method = 'graph',engine = 'htmlwidget')
+
+```
+
+#### Modelo2:  Algoritmo eclat, con parámetros de soporte del 5% y una confianza de 0.75
+
+```{r}
+ 
+  itemsets<- arules::eclat(transacciones,parameter = list(supp = 0.005, maxlen = 10))
+
+  reglas <- ruleInduction(itemsets, transacciones, confidence = .75)
+  
+  reglasFinal= (sort(reglas,by='support',decreasing = TRUE))
+
+  mejoresReglas<- reglasFinal[quality(reglasFinal)$confidence>0.75]
+   
+```
+
+##### Mejores tres  reglas: Eclat
+
+```{r}
+
+  
+  inspect(mejoresReglas)
+  
+```
+
+
+
+##### Visualización de las  reglas: Eclat
+```{r fig.align='center'}
+   cincoMejoresReglas<- head(mejoresReglas,n=5,by='confidence')
+  
+   plot(cincoMejoresReglas,method = 'graph',engine = 'htmlwidget')
+
+```
+
+
+## Análisis de las reglas
+
+#### Productos que se consumen  a medio día
+```{r include=FALSE}
+
+  reglasDetail<- apriori(transacciones,parameter =list(supp=0.001,conf=0.8), 
+                           appearance = list(default='lhs',rhs='MedioDia')  )
+
+```
+
+```{r}
+
+  inspect(head(reglasDetail))
+
+```
+
+#### Productos que se consumen en la tarde
+
+```{r include=FALSE}
+
+  reglasDetail<- apriori(transacciones,parameter =list(supp=0.001,conf=0.9), 
+                           appearance = list(default='lhs',rhs='Tarde')  )
+
+```
+
+```{r}
+
+  inspect(head(reglasDetail))
+
+```
+
+#### Productos que se consumen en la mañana
+```{r include=FALSE}
+
+  reglasDetail<- apriori(transacciones,parameter =list(supp=0.001,conf=0.7), 
+                           appearance = list(default='lhs',rhs='Manana')  )
+
+```
+
+```{r}
+
+  inspect(head(reglasDetail))
+
+```
+
+
+
+#### Productos asociados al consumo de cafe
+```{r include=FALSE}
+
+  reglasDetail<- apriori(transacciones,parameter =list(supp=0.001,conf=0.8), 
+                           appearance = list(default='lhs',rhs='Cafe negro')  )
+```
+
+```{r }
+
+  inspect(head(reglasDetail))
+```
+
+#### Ejemplo: Determinar que consumió el cliente cuando compro una Carlota de fresas
+```{r include=FALSE}
+  reglasDetail<- apriori(transacciones,parameter =list(supp=0.001,conf=0.8), 
+                           appearance = list(lhs='Carlota de fresas',default='rhs')  )
+  
+
+```
+
+```{r}
+
+  inspect(head(reglasDetail))
+
+```
+
+
+## Conclusiones
+
+- Ambos algoritmos detectan una fuerte asociación de consumo de papas bravas y suspiro limeño en la tarde, ambos con un confidence muy cercano a 100%
+
+- Eclat y apriori descubren una agrupación de   Sándwich cubano y  tártara de almendras con medio día. 
