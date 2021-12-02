@@ -1,5 +1,3 @@
-# Cenfotec
-## IA-02 G2 Deep Learning
 
 ### William Fallas. williamfallas@gmail.com
 
